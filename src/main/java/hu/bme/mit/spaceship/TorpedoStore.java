@@ -37,7 +37,7 @@ public class TorpedoStore {
     boolean success = false;
 
     // simulate random overheating of the launcher bay which prevents firing
-    double r = rand.nextDouble();
+    double r = rand.nextDouble();   //Creating new instance on every call could lead to result repetition according to the sonarlit rules
 
     if (r >= FAILURE_RATE) {
       // successful firing
