@@ -6,6 +6,7 @@ package hu.bme.mit.spaceship;
 */
 
 //SonarCloud teszt.....
+//Tesztbranch + SonarQube
 
 public interface SpaceShip {
 
